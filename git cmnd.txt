@@ -1,0 +1,2 @@
+git rm -r --cached . -> to untrack all commit files
+ ssh-keygen -t rsa    -> to create RSA key
