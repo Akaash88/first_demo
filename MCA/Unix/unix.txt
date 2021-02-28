@@ -1,0 +1,7 @@
+%LOCALAPPDATA%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs
+
+cd /mnt/c/
+
+--execute c program--
+$ gcc [programName].c -o programName
+$ ./programName

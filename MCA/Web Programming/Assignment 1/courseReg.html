@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            CourseReg
+        </title>
+    </head>
+    <body bgcolor="aqua">
+        <center><h1>Course Regestration Form</h1></center>
+        <form name="loginForm">
+            <label>Enter Username</label>   <input type="text" name="username"/> <br/><br/>
+            <label>Enter Password</label>  <input type="password" name="Password"/> <br/><br/>
+            <label>Enter the type of courses</label> 
+                <input type="checkbox" name="Basics">Basics</input>
+                <input type="checkbox" name="advanced">Advanced</input>
+                <input type="checkbox" name="Both">Both</input> <br/><br/>
+            <label>Enter the mode of payment</label>
+                <input type="radio" name="payment">Full Payment</input>
+                <input type="radio" name="payment">Half Payment</input><br/><br/>
+            <label>Select the course</label>
+                <select name="coursesSelect" size="2">
+                    <option>Core Java</option>
+                    <option>Advanced Java</option>
+                    <option>C</option>
+                </select> <br/><br/>
+            <label>Enter your FeedBack about our Institute.</label>
+            <textarea placeholder="enter your feedback" rows="5" cols="50"></textarea><br/><br/>
+            <input type="button" value="Click to Submit"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>
